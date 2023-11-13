@@ -13,7 +13,7 @@ This projects aims to create an analysis of YouTube trending videos based on the
 5. Reporting - A dashboard where we can represent our finding through analysis.
 
 
-#Dataset Used
+##Dataset Used
 
 This Keggle dataset includes data on daily trending YouTube videos which includes data for the US, GB, DE, CA, FR, RU, MX, KR, JP and IN regions (USA, Great Britain, Germany, Canada, France, Russia, Mexico, South Korea, Japan and India respectively) with upto 200 listed trending video per day.
 Each region dataset includes:
@@ -22,3 +22,12 @@ Each region dataset includes:
 - Data includes category_id field which acts as primary key between regions which is stored in JSON format.
 
   Link to Dataset - https://www.kaggle.com/datasets/datasnaek/youtube-new
+
+### AWS Services Used
+
+1. AWS S3:  (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. You can use Amazon S3 to store and retrieve any amount of data at any time, from anywhere.
+2. AWS IAM: Identity and Access Management (IAM) is a web service that helps you securely control access to AWS resources. With IAM, you can centrally manage permissions that control which AWS resources users can access. 
+3. AWS Glue: It is a serverless data integration service that makes it easy for analytics users to discover, prepare, move, and integrate data from multiple sources. You can use it for analytics, machine learning, and application development. It also includes additional productivity and data ops tooling for authoring, running jobs, and implementing business workflows.
+4. AWS Lambda: AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers
+5. Amazon Athena: Amazon Athena is an interactive query service that makes it simple to analyze data directly in Amazon S3 using standard SQL.
+6. Amazon Quicksight: Amazon QuickSight is a very fast, easy-to-use, cloud-powered business analytics service that makes it easy for all employees within an organization to build visualizations, perform ad-hoc analysis, and quickly get business insights from their data, anytime, on any device.
