@@ -13,7 +13,7 @@ This projects aims to create an analysis of YouTube trending videos based on the
 5. Reporting - A dashboard where we can represent our finding through analysis.
 
 
-##Dataset Used
+# Dataset Used
 
 This Keggle dataset includes data on daily trending YouTube videos which includes data for the US, GB, DE, CA, FR, RU, MX, KR, JP and IN regions (USA, Great Britain, Germany, Canada, France, Russia, Mexico, South Korea, Japan and India respectively) with upto 200 listed trending video per day.
 Each region dataset includes:
@@ -23,7 +23,7 @@ Each region dataset includes:
 
   Link to Dataset - https://www.kaggle.com/datasets/datasnaek/youtube-new
 
-### AWS Services Used
+# AWS Services Used
 
 1. AWS S3:  (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. You can use Amazon S3 to store and retrieve any amount of data at any time, from anywhere.
 2. AWS IAM: Identity and Access Management (IAM) is a web service that helps you securely control access to AWS resources. With IAM, you can centrally manage permissions that control which AWS resources users can access. 
