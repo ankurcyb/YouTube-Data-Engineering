@@ -31,3 +31,16 @@ Each region dataset includes:
 4. AWS Lambda: AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers
 5. Amazon Athena: Amazon Athena is an interactive query service that makes it simple to analyze data directly in Amazon S3 using standard SQL.
 6. Amazon Quicksight: Amazon QuickSight is a very fast, easy-to-use, cloud-powered business analytics service that makes it easy for all employees within an organization to build visualizations, perform ad-hoc analysis, and quickly get business insights from their data, anytime, on any device.
+
+
+# Process
+
+1. First step involved downloading data from YouTube data set from keggle to our local machine. This dataset has data of trending YouTube videos of different regions and has different formats. 
+Then we export the data from our local machine to the AWS S3 bucket that we created.
+![image](https://github.com/ankurcyb/YouTube-Data-Engineering/assets/141453942/f22806a3-5a6c-44a4-93fd-de65d9a7f212)
+![image](https://github.com/ankurcyb/YouTube-Data-Engineering/assets/141453942/eda20eec-acbc-4386-947d-7163b588bce8)
+
+
+
+
+ 
