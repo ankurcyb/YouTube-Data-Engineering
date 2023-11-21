@@ -41,6 +41,24 @@ Then we export the data from our local machine to the AWS S3 bucket that we crea
 ![image](https://github.com/ankurcyb/YouTube-Data-Engineering/assets/141453942/eda20eec-acbc-4386-947d-7163b588bce8)
 
 
+2. The second step involved creating AWS Glue as a central repository of metadata of all data sets that we exported from Keggle to understand the dataset better.
+By running crawler in the dataset that we exported in the S3 bucket, we are able to understand it better by determining the schema of the raw data. The schema is replicated in the Glue Data catalogue.
+![image](https://github.com/ankurcyb/YouTube-Data-Engineering/assets/141453942/9365b5a1-2de5-48f7-bf9d-db8ea6adbdc6)
+Crawler
+![image](https://github.com/ankurcyb/YouTube-Data-Engineering/assets/141453942/c491a1dc-e1f5-44a3-a9e5-b2f21ef299b4)
+Schema
+
+
+3. The next step is create AWS Lambda to run ETL job on our raw YouTube data to convert into Parquet from .json because AWS catalogue doesn't know what type of data that we want to work on. So, we will run an ETL job on the raw data and we will run the Crawler on the cleansed data.
+![image](https://github.com/ankurcyb/YouTube-Data-Engineering/assets/141453942/010319a9-097b-45eb-8fff-e69860181c69)
+Lambda Python function
+![image](https://github.com/ankurcyb/YouTube-Data-Engineering/assets/141453942/48bf9d0f-3ecf-4ed8-80ff-af2afc8c3e2f)
+Execution
+
+
+4. The next step is to create a Dashboard using AWS quicksight to answer the questions related to YouTube data trending metric.
+
+
 
 
  
